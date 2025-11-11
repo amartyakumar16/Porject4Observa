@@ -14,18 +14,25 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background: linear-gradient(135deg, #1e3c72, #2a5298); /* Deep blue gradient */
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #f0f8ff; /* Light cyan text for contrast */
 }
 
 .App-link {
-  color: #61dafb;
+  color: #ffcb05; /* Bright yellow for links */
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+.App-link:hover {
+  color: #00ffff; /* Aqua hover effect */
 }
 
 @keyframes App-logo-spin {
